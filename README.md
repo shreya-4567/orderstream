@@ -27,7 +27,6 @@ This project aims to build and deploy a scalable, modern Order Management System
 
 ## Backend (Node.js / Spring Boot)
 ---
-
 ## Tech Stack
 
 | Layer         | Technology Used                                      |
