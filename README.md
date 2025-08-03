@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project aims to build and deploy a scalable, modern Order Management System using:
 
@@ -15,7 +15,7 @@ This project aims to build and deploy a scalable, modern Order Management System
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Create, store, and manage customer orders
 - Upload and access invoices through S3
@@ -25,9 +25,9 @@ This project aims to build and deploy a scalable, modern Order Management System
 
 ---
 
-## 🧱 Backend (Node.js / Spring Boot)
+## Backend (Node.js / Spring Boot)
 
-### 📦 Entities
+### Entities
 
 - `Order`
   - `orderId` (UUID)
@@ -36,7 +36,7 @@ This project aims to build and deploy a scalable, modern Order Management System
   - `orderDate` (ISO Timestamp)
   - `invoiceFileUrl` (String, S3 URL)
 
-### 📡 Endpoints
+### Endpoints
 
 | Method | Endpoint        | Description                          |
 |--------|------------------|--------------------------------------|
@@ -44,7 +44,7 @@ This project aims to build and deploy a scalable, modern Order Management System
 | GET    | `/orders/{id}`   | Fetch order by ID                    |
 | GET    | `/orders`        | List all orders                      |
 
-### ☁ AWS Integration
+### AWS Integration
 
 - **DynamoDB**: Store order data
 - **S3**: Upload and retrieve invoice PDFs
@@ -52,9 +52,9 @@ This project aims to build and deploy a scalable, modern Order Management System
 
 ---
 
-## 🎨 Frontend (React.js)
+## Frontend (React.js)
 
-### 📄 Pages
+### Pages
 
 1. **Dashboard** (`/`)
    - List of all orders
@@ -69,7 +69,7 @@ This project aims to build and deploy a scalable, modern Order Management System
    - Detailed view of a single order
    - Download invoice button
 
-### ✨ UI Features
+### UI Features
 
 - Responsive design
 - Toast notifications
@@ -77,9 +77,9 @@ This project aims to build and deploy a scalable, modern Order Management System
 
 ---
 
-## 🔁 CI/CD Pipeline
+## CI/CD Pipeline
 
-### ✅ GitHub Actions
+### GitHub Actions
 
 Example file: `.github/workflows/deploy.yml`
 
@@ -88,14 +88,14 @@ Example file: `.github/workflows/deploy.yml`
 - Run tests
 - Deploy to AWS (Elastic Beanstalk / EC2 / ECS)
 
-### ✅ Jenkins (Optional)
+### Jenkins (Optional)
 
 - Git clone + build
 - Test and deploy via AWS CLI
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 /
@@ -107,7 +107,7 @@ Example file: `.github/workflows/deploy.yml`
 
 ---
 
-## 🧪 Optional Features
+## Optional Features
 
 - [ ] JWT Authentication for order APIs
 - [ ] Export order logs to S3 in JSON format
@@ -116,7 +116,7 @@ Example file: `.github/workflows/deploy.yml`
 
 ---
 
-## 🛠️ How to Run Locally
+## How to Run Locally
 
 ### Frontend
 
@@ -138,17 +138,17 @@ npm start
 
 ---
 
-## 📌 Deliverables
+## Deliverables
 
-- ✅ `/order-service` (Backend)
-- ✅ `/order-ui` (Frontend)
-- ✅ CI/CD setup (`GitHub Actions` or `Jenkins`)
-- ✅ Swagger UI (if implemented)
-- ✅ README with all setup and explanation
+- `/order-service` (Backend)
+- `/order-ui` (Frontend)
+- CI/CD setup (`GitHub Actions` or `Jenkins`)
+- Swagger UI (if implemented)
+- README with all setup and explanation
 
 ---
 
-## 📝 Evaluation Criteria
+## Evaluation Criteria
 
 | Criteria                                | Weight |
 |-----------------------------------------|--------|
@@ -162,8 +162,8 @@ npm start
 
 ---
 
-## 💡 Contact
+## Contact
 
-Made with 💻 by [Shreya](https://github.com/shreya-4567)
+Made with by [Shreya](https://github.com/shreya-4567)
 
 ---
