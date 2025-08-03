@@ -26,6 +26,23 @@ This project aims to build and deploy a scalable, modern Order Management System
 ---
 
 ## Backend (Node.js / Spring Boot)
+---
+
+## Tech Stack
+
+| Layer         | Technology Used                                      |
+|---------------|------------------------------------------------------|
+| **Frontend**  | React.js, Tailwind CSS / Bootstrap / Material UI     |
+| **Backend**   | Node.js or Spring Boot (Java)                        |
+| **Database**  | AWS DynamoDB                                         |
+| **File Storage** | AWS S3 (for invoice PDF storage)                 |
+| **Notification** | AWS SNS (for email/SMS simulation)               |
+| **CI/CD**     | GitHub Actions or Jenkins                            |
+| **Other Tools**| Swagger UI (for API docs), JWT (optional auth)      |
+
+---
+
+> Fully cloud-native architecture using AWS for all backend services.
 
 ### Entities
 
